@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -130,12 +130,10 @@
     <ClCompile Include="DigitalWatch.cpp" />
     <ClCompile Include="HW13_Cpp_OOP.cpp" />
     <ClCompile Include="Watch.cpp" />
-    <ClCompile Include="WristWatch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DigitalWatch.h" />
     <ClInclude Include="Watch.h" />
-    <ClInclude Include="WristWatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

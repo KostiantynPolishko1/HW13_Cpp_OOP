@@ -5,7 +5,7 @@
 
 class Watch
 {
-protected:
+private:
 	short _timeHours;
 	short _timeMinutes;
 	char* _time;

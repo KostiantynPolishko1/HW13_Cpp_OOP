@@ -21,8 +21,7 @@ char* Watch::getTime()
 	short _timeHours = getTimeHours();
 	short _timeMinutes = getTimeMinutes();
 
-	/*static_cast<char>(48 + _timeHours / 10) + static_cast<char>(48 + _timeHours % 10) + '+' +
-		static_cast<char>(48 + _timeMinutes / 10) + static_cast<char>(48 + _timeMinutes % 10);*/
-	
-	return (char*)"_time";
+	static_cast<char>(48 + _timeHours / 10) + static_cast<char>(48 + _timeHours % 10) + '+' +
+		static_cast<char>(48 + _timeMinutes / 10) + static_cast<char>(48 + _timeMinutes % 10);
+	return _time;
 }
