@@ -130,10 +130,12 @@
     <ClCompile Include="DigitalWatch.cpp" />
     <ClCompile Include="HW13_Cpp_OOP.cpp" />
     <ClCompile Include="Watch.cpp" />
+    <ClCompile Include="WristWatch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DigitalWatch.h" />
     <ClInclude Include="Watch.h" />
+    <ClInclude Include="WristWatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
